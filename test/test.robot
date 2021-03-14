@@ -13,14 +13,17 @@ user can access website
     wait until page contains        Infotiv Car Rental
     Click element                   id: logo
     wait until page contains        Infotiv Car Rental
+
     click element                   id: continue
     wait until page contains        Infotiv Car Rental
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
+
     click element                   id: rightHeader
     wait until page contains        Infotiv Car Rental
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
+
     click element                   id: createUser
     wait until page contains        Create user
     click element                   id: logo
@@ -29,5 +32,12 @@ user can access website
     input password                  id: password  Motocross01
     click element                   id: login
     wait until page contains        Infotiv Car Rental
+
+    click element                   id: mypage
+    wait until page contains        Mypage
+    click element                   id: logo
+    wait until page contains        Infotiv Car Rental
+
+
 
     Close browser
