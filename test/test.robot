@@ -25,10 +25,9 @@ user can access website
     wait until page contains        Create user
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
-    click element                   id: mypage
-    wait until page contains        Mypage
-    click element                   id: logo
+    input text                      id: email  victor.hedstrom@iths.se
+    input password                  id: password  Motocross01
+    click element                   id: login
     wait until page contains        Infotiv Car Rental
-
 
     Close browser
