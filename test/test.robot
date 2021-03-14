@@ -11,4 +11,4 @@ user can access website
     Open browser                     about:blank     chrome
     Go to                            http://rental33.infotiv.net/
     wait until page contains         Infotiv Car Rental
-    close browser
+    Close browser
