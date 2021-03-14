@@ -38,6 +38,25 @@ user can access website
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
 
+    input text                      id: start  03-20
+    input text                      id: end    04-12
+
+    click element                   id: continue
+    wait until page contains        Infotiv Car Rental
+    click element                   id: bookModelSpass5
+    wait until page contains        Infotiv Car Rental
+    input text                      id: cardNum  1111111111111111
+    input text                      id: fullName  victor hedstrom
+    click element                   id: month11
+    click element                   id: month2022
+    input text                      id: cvc  820
+    click element                   id: confirm
+    click element                   id: logo
+    wait until page contains        Infotiv Car Rental
+
+
+
+
 
 
     Close browser
