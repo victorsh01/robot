@@ -1,8 +1,8 @@
-** Settings **
+*** Settings ***
 Documentation    Testing Infotiv Car Rental
 Library          SeleniumLibrary
 
- ** Test Cases **
+ *** Test Cases ***
 Uer can access website
     [Documentation]              Testing so that the webpage opens properly
     [Tags]                       Test 1
