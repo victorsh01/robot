@@ -25,6 +25,10 @@ user can access website
     wait until page contains        Create user
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
+    click element                   id: mypage
+    wait until page contains        Mypage
+    click element                   id: logo
+    wait until page contains        Infotiv Car Rental
 
 
     Close browser
