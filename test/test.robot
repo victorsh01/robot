@@ -5,13 +5,18 @@ Library     SeleniumLibrary
 
 *** Test Case ***
 user can access website
-    [Documentation]                  testing so that the page open correctly
-    [Tags]                           test 1
+    [Documentation]                 testing so that the page open correctly
+    [Tags]                          test 1
 
-    Open browser                     about:blank     chrome
-    Go to                            http://rental33.infotiv.net/
-    wait until page contains         Infotiv Car Rental
-    Click element                    id: logo
-    wait until page contains         Infotiv Car Rental
+    Open browser                    about:blank     chrome
+    Go to                           http://rental33.infotiv.net/
+    wait until page contains        Infotiv Car Rental
+    Click element                   id: logo
+    wait until page contains        Infotiv Car Rental
+    click element                   id: continue
+    wait until page contains        Infotiv Car Rental
+    click element                   id: logo
+    wait until page contains        Infotiv Car Rental
+
 
     Close browser
