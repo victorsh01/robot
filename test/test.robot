@@ -14,32 +14,53 @@ user can access website
     Click element                   id: logo
     wait until page contains        Infotiv Car Rental
 
+
     click element                   id: continue
     wait until page contains        Infotiv Car Rental
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
+
 
     click element                   id: rightHeader
     wait until page contains        Infotiv Car Rental
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
 
+
     click element                   id: createUser
     wait until page contains        Create user
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
-    input text                      id: email  victor.hedstrom@iths.se
-    input password                  id: password  Motocross01
+
+
+    click element                   id: createUser
+    wait until page contains        Create user
+    input text                      id: name   victor
+    input text                      id: last   hedström
+    input text                      id: phone  0736101010
+    input text                      id: emailCreate  test@gmail.com
+    input text                      id: confirmEmail  test@gmail.com
+    input text                      id: passwordCreate  banan123
+    input text                      id: confirmPassword  banan123
+    click element                   id: create
+    wait until page contains        Infotiv Car Rental
+    click element                   id: logout
+
+    input text                      id: email  test@gmail.com
+    input password                  id: password  banan123
     click element                   id: login
     wait until page contains        Infotiv Car Rental
+
 
     click element                   id: mypage
     wait until page contains        Mypage
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
 
+
     input text                      id: start  03-20
     input text                      id: end    04-12
+
 
     click element                   id: continue
     wait until page contains        Infotiv Car Rental
@@ -53,9 +74,6 @@ user can access website
     click element                   id: confirm
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
-
-
-
 
 
 
