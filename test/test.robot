@@ -8,31 +8,32 @@ user can create account and access all pages
     [Documentation]                 testar så att alla sidor fungerar som de ska och att man kan komma tillbaka till huvud menyn, skapar även nytt konto
     [Tags]                          test 1
 
-    #testar
+    #testar så att man kan klicka på logan
     Open browser                    about:blank     chrome
     Go to                           http://rental33.infotiv.net/
     wait until page contains        Infotiv Car Rental
     Click element                   id: logo
     wait until page contains        Infotiv Car Rental
 
-
+    #trycker på continue sedan logan för att testa om den tar mig tillbaka
     click element                   id: continue
     wait until page contains        Infotiv Car Rental
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
 
-
-    click element                   id: rightHeader
+    #trycker på about och sedan på logan
+    click element                   id: about
     wait until page contains        Infotiv Car Rental
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
 
-
+    #trycker på create user och sedan logan för att ta mig tillbaka
     click element                   id: createUser
     wait until page contains        Create user
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
 
+    #gör så att den loggar in på en existerande konto
     input text                      id: email  test6@gmail.com
     input password                  id: password  banan123
     click element                   id: login
@@ -45,17 +46,17 @@ user can book car and return it
     [Documentation]                 testar så att man kan bika en bil samt avboka den
     [Tags]                          test 2
 
-
+    #trycker på my page och sedan logan för att ta mig tillbaka till start sidan
     click element                   id: mypage
     wait until page contains        Mypage
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
 
-
+    #väljer datum för bokning av bil
     input text                      id: start  03-20
     input text                      id: end    04-12
 
-
+    #skriver in all inforamtion som behövs för att hyra en bil
     click element                   id: continue
     wait until page contains        Infotiv Car Rental
     click element                   id: bookModelSpass5
@@ -69,7 +70,7 @@ user can book car and return it
     click element                   id: logo
     wait until page contains        Infotiv Car Rental
 
-
+    #avbokar bilen som man bokar
     click element                   id: mypage
     click element                   id: unBook1
     handle alert                    accept
@@ -77,7 +78,7 @@ user can book car and return it
     wait until page contains        Infotiv Car Rental
     click element                   id: logout
 
-
+    #skapar ett nytt konto
     click element                   id: createUser
     wait until page contains        Create user
     input text                      id: name   victor
