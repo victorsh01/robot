@@ -1,0 +1,9 @@
+den består av mest whitebox tekniken men även lite blackbox
+
+jag hade några avvikelser som tog ett tag att förstå, som tex varför den inte ändrade datumet det det datum jag skrev att den skulle skriva.
+sedan var det en pop up massege som kom upp som var lite svårt att förstå hur man skulle acceptera den men det gick bra tillslut
+
+tycker att det gick mycket snabbare att testa samma saker när man väll hade skrivit in det, tycker att det var ett mycket effektivt sätt att testa på
+än manuellt, men vissa saker kan vara enklare att göra manuellt
+
+Det svåraste med labben var att komma igång och börja skriva koden och att förstå instruktionerna
